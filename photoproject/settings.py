@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     
     'photo.apps.PhotoConfig',
     'accounts.apps.AccountsConfig',
+    'scheduleCalendar.apps.SchedulecalendarConfig'
 ]
 
 MIDDLEWARE = [

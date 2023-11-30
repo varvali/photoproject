@@ -44,6 +44,8 @@ urlpatterns = [
     # マイページ
     # mypage/へのアクセスはMypageViewを実行
     path('mypage/', views.MypageView.as_view(), name = 'mypage'),
+    
+    path('contact/', views.ContactView.as_view(), name='contact'),
 
     # 投稿写真の削除
     # photo/<Photo postsテーブルのid値>/delete/にマッチング
